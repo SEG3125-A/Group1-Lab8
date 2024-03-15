@@ -4,9 +4,9 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from './Navbar'; // Adjust the path as necessary
 import HomePage from './Pages/Homepage';
-{/*import Page1 from './Pages/Page1';
-import Page2 from './Pages/Page2';*/}
-// Import Page3 and Page4 if they exist
+import Services from './Pages/Services';
+import Technicians from './Pages/Technicians';
+import AboutUs from './Pages/AboutUs';
 
 function App() {
   return (
@@ -20,9 +20,9 @@ function App() {
         <Routes>
           <Route path="/Pages/Homepages.js" element={<HomePage />} exact /> 
           <Route path='/' element={<HomePage />}/>
-          {/*<Route path="/page1" element={<Page1 />} />
-          <Route path="/page2" element={<Page2 />} />
-          {/* Define routes for Page3 and Page4 if necessary */}
+          <Route path="/Pages/Services.js" element={<Services />} />
+          <Route path='/Pages/Technicians.js' element={<Technicians />}/>
+          <Route path='/Pages/AboutUs.js' element={<AboutUs />}/>
         </Routes>
       </Router>
     </div>

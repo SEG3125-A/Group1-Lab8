@@ -23,9 +23,9 @@ function Navbar({ closeNavbar }) { // Accepting a prop to close the navbar
         <a href="#" className="closebtn" onClick={() => setIsNavExpanded(false)}>&times;</a>
         {/* Use handleNavLinkClick to close navbar on click */}
         <Link to="/Pages/Homepages.js" onClick={handleNavLinkClick}>Homepage</Link>
-        <Link to="/page1" onClick={handleNavLinkClick}>Services</Link>
-        <Link to="/page2" onClick={handleNavLinkClick}>Technicians</Link>
-        {/* Add more links as necessary */}
+        <Link to="/Pages/Services.js" onClick={handleNavLinkClick}>Services</Link>
+        <Link to="/Pages/Technicians.js" onClick={handleNavLinkClick}>Technicians</Link>
+        <Link to="/Pages/AboutUs.js" onClick={handleNavLinkClick}>About Us</Link>
       </div>
     </>
   );
