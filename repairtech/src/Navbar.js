@@ -24,7 +24,7 @@ function Navbar({ closeNavbar }) {
     switch (location.pathname) {
       case '/Pages/Homepages.js':
       case '/':
-        setPageTitle('Homepage');
+        setPageTitle('');
         break;
       case '/Pages/Services.js':
         setPageTitle('Services');
@@ -62,8 +62,12 @@ function Navbar({ closeNavbar }) {
         <Link to="/Pages/OnlineBooking.js" onClick={handleNavLinkClick}>Online Booking</Link>
         <Link to="/Pages/AboutUs.js" onClick={handleNavLinkClick}>About Us</Link>
       </div>
-      <div className="title-container"> {/* Apply CSS styles to this div */}
-        <h1 className="page-title">{pageTitle}</h1>
+      <div className="title-container">
+      <div className="left-side-text">RepairTech 
+      <p>Home of all your tech repairs</p>
+      </div>
+      <h1 className="page-title">{pageTitle}</h1>
+      <div className="right-side-placeholder"></div> {/* Placeholder to balance the flexbox */}
       </div>
     </>
   );
