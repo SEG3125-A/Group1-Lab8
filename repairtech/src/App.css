@@ -156,3 +156,16 @@
   margin-left: auto; 
   margin-right: auto; 
 }
+
+/* App.css */
+.navbar-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px; /* Adjust the height as needed */
+  background-color: #333; /* Background color of the title band */
+}
+
+.page-title {
+  color: white;
+}
