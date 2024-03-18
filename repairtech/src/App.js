@@ -1,8 +1,9 @@
+// App.js
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Navbar from './Navbar'; // Adjust the path as necessary
+import Navbar from './Navbar';
 import HomePage from './Pages/Homepage';
 import Services from './Pages/Services';
 import Technicians from './Pages/Technicians';
@@ -10,29 +11,22 @@ import AboutUs from './Pages/AboutUs';
 
 function App() {
   return (
-    <div className="App">
-      <Router>
-
+    <Router>
+      <div className="App">
         <header className="App-header">
-          <Navbar /> {/* Include the Navbar component */}
+          <Navbar />
         </header>
 
-        {/* Routing Setup */}
         <Routes>
           <Route path="/Pages/Homepages.js" element={<HomePage />} exact /> 
-          <Route path='/' element={<HomePage />}/>
+          <Route path='/' element={<HomePage />} />
           <Route path="/Pages/Services.js" element={<Services />} />
-          <Route path='/Pages/Technicians.js' element={<Technicians />}/>
-          <Route path='/Pages/AboutUs.js' element={<AboutUs />}/>
+          <Route path='/Pages/Technicians.js' element={<Technicians />} />
+          <Route path='/Pages/AboutUs.js' element={<AboutUs />} />
         </Routes>
-
-        
-      </Router>
-    </div>
+      </div>
+    </Router>
   );
 }
 
 export default App;
-
-
-
