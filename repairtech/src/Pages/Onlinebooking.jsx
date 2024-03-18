@@ -10,8 +10,16 @@ function OnlineBooking() {
   
   <div className='online-booking-container'>
     <div className='book-flow-container' >
-    <div className='flow-block'></div>
+
+        <div className='book-flow-horizontal'>
+          <div className='flow-block-big'></div>
+          <div className='flow-block-middle'></div>
+          <div className='flow-block-last'></div>
+      </div>
+    
+
     </div>
+
 
     <DatePicker
       inline
