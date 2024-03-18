@@ -161,10 +161,67 @@
 /* Online Booking CSS */
 .online-booking-container{
   min-height: 90vh;
-  text-align: center; 
-  padding: 50px 20px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center children vertically */
+  align-items: center; /* Center children horizontally */
+  text-align: center;
+  padding: 50px 20px;
   background-color: #79B5B1;
+}
 
+.book-flow-container{
+  align-items: center;
+  text-align: center;
+  margin:0px;
+  margin-top: -20rem;
+}
+
+.flow-block-middle{
+  width:40px;
+  height: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 50px;
+  margin-top:4px;
+  background-color: #D9D9D9;
+}
+
+.flow-block-first{
+  width:45px;
+  height: 45px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 50px;
+  
+  background-color: #333333;
+}
+
+.flow-block-last{
+  width:40px;
+  height: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 50px;
+  margin-top:4px;
+  
+  background-color: #D9D9D9;
+}
+
+.flow-block-big{
+  width: 45px;
+  height: 45px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 50px;
+  margin-top: 2.5px;
+  background-color: #333333;
+}
+
+.book-flow-horizontal{
+  display: flex;
+  flex-direction: row;
+  
 }
 
 /* Services */
