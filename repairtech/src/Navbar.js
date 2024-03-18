@@ -24,7 +24,7 @@ function Navbar({ closeNavbar }) {
     switch (location.pathname) {
       case '/Pages/Homepages.js':
       case '/':
-        setPageTitle('Homepage');
+        setPageTitle('');
         break;
       case '/Pages/Services.js':
         setPageTitle('Services');
