@@ -6,7 +6,7 @@ function HomePage() {
     
     
    <div className='online-booking-container'>
-    <div className="home-page-container"> {/* Add this container */}
+    <div className="home-page-container">
     <div className="content-wrap">
       <div className='centered-image'>
       </div>
