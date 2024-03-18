@@ -57,10 +57,10 @@ function Navbar({ closeNavbar }) {
         <a href="#" className="closebtn" onClick={() => setIsNavExpanded(false)}>&times;</a>
         {/* Use handleNavLinkClick to close navbar on click */}
         <Link to="/Pages/Homepages.js" onClick={handleNavLinkClick}>Homepage</Link>
+        <Link to="/Pages/AboutUs.js" onClick={handleNavLinkClick}>About Us</Link>
         <Link to="/Pages/Services.js" onClick={handleNavLinkClick}>Services</Link>
         <Link to="/Pages/Technicians.js" onClick={handleNavLinkClick}>Technicians</Link>
         <Link to="/Pages/OnlineBooking.js" onClick={handleNavLinkClick}>Online Booking</Link>
-        <Link to="/Pages/AboutUs.js" onClick={handleNavLinkClick}>About Us</Link>
       </div>
       <div className="title-container">
       <div className="left-side-text">RepairTech 
