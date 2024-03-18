@@ -58,7 +58,7 @@ function Navbar({ closeNavbar }) {
         <Link to="/Pages/Technicians.js" onClick={handleNavLinkClick}>Technicians</Link>
         <Link to="/Pages/AboutUs.js" onClick={handleNavLinkClick}>About Us</Link>
       </div>
-      <div className="navbar-container"> {/* Apply CSS styles to this div */}
+      <div className="title-container"> {/* Apply CSS styles to this div */}
         <h1 className="page-title">{pageTitle}</h1>
       </div>
     </>
