@@ -32,6 +32,9 @@ function Navbar({ closeNavbar }) {
       case '/Pages/Technicians.js':
         setPageTitle('Technicians');
         break;
+        case '/Pages/OnlineBooking.js':
+        setPageTitle('OnlineBooking');
+        break;
       case '/Pages/AboutUs.js':
         setPageTitle('About Us');
         break;
@@ -56,6 +59,7 @@ function Navbar({ closeNavbar }) {
         <Link to="/Pages/Homepages.js" onClick={handleNavLinkClick}>Homepage</Link>
         <Link to="/Pages/Services.js" onClick={handleNavLinkClick}>Services</Link>
         <Link to="/Pages/Technicians.js" onClick={handleNavLinkClick}>Technicians</Link>
+        <Link to="/Pages/OnlineBooking.js" onClick={handleNavLinkClick}>Online Booking</Link>
         <Link to="/Pages/AboutUs.js" onClick={handleNavLinkClick}>About Us</Link>
       </div>
       <div className="title-container"> {/* Apply CSS styles to this div */}
@@ -66,3 +70,4 @@ function Navbar({ closeNavbar }) {
 }
 
 export default Navbar;
+
