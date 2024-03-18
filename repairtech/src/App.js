@@ -12,6 +12,7 @@ function App() {
   return (
     <div className="App">
       <Router>
+
         <header className="App-header">
           <Navbar /> {/* Include the Navbar component */}
         </header>
@@ -24,11 +25,14 @@ function App() {
           <Route path='/Pages/Technicians.js' element={<Technicians />}/>
           <Route path='/Pages/AboutUs.js' element={<AboutUs />}/>
         </Routes>
+
+        
       </Router>
     </div>
   );
 }
 
 export default App;
+
 
 
