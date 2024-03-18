@@ -13,7 +13,7 @@ function Navbar({ closeNavbar }) { // Accepting a prop to close the navbar
   return (
     <>
     <div className='menu-button'>
-        <button className="btn btn-primary hamburger-btn" onClick={() => setIsNavExpanded(!isNavExpanded)}>
+        <button className="btn btn-primary hamburger-btn"  onClick={() => setIsNavExpanded(!isNavExpanded)}>
         <div className="hamburger-line"></div>
         <div className="hamburger-line"></div>
         <div className="hamburger-line"></div>

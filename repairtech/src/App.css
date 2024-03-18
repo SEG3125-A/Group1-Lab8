@@ -53,3 +53,8 @@
   margin: 6px 0;
 }
 
+.App-header {
+  height: 125px;
+  background-color: hsl(0, 0%, 20%,100); 
+}
+
