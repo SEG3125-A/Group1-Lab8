@@ -26,6 +26,7 @@ function App() {
           <Route path='/Pages/AboutUs.js' element={<AboutUs />} />
           <Route path='/Pages/OnlineBooking.js' element={<OnlineBooking />} />
         </Routes>
+        
       </div>
     </Router>
   );
