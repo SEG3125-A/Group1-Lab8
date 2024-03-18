@@ -17,7 +17,7 @@ function OnlineBooking() {
           <div className='flow-block-last'></div>
       </div>
     
-
+    
     </div>
 
 
@@ -27,7 +27,7 @@ function OnlineBooking() {
       onChange={date => setSelectedDate(date)}
       dateFormat={"dd/mm/yyyy"}
     />
-
+  <button>Select Date</button>
   </div>
   
   );
