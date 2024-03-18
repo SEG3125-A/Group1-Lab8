@@ -1,5 +1,6 @@
 /* navbar */
 
+
 .sidebar {
   height: 100%;
   position: fixed;
@@ -84,9 +85,11 @@
 
 /* About us page */
 .about-us-container {
+  min-height: 90vh;
   text-align: center; 
   padding: 50px 20px; 
   background-color: #79B5B1;
+  
 }
 
 .header {
