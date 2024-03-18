@@ -171,3 +171,16 @@
   background-color: #79B5B1;
 
 }
+
+/* Services */
+
+.service-card {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin-top: 80px;
+}
+
+.service-card .card-body {
+  flex: 1; /* Makes the card body flex to fill the available space */
+}
