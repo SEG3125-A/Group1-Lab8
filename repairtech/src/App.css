@@ -85,6 +85,8 @@
 
 /* About us page */
 .about-us-container {
+
+  color: white;
   min-height: 90vh;
   text-align: center; 
   padding: 50px 20px; 
@@ -94,11 +96,11 @@
 
 .header2 {
   margin-top: 40px;
-  font-size: 2rem; 
+  font-size: 3rem; 
 }
 .description {
   margin-top: 75px;
-  font-size: 1.2rem; 
+  font-size: 1.5rem; 
   max-width: 600px; 
   margin-left: auto; 
   margin-right: auto; 
