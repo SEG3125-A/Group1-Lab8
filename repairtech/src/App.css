@@ -126,3 +126,12 @@
   color: white;
   font-size: 5em;
 }
+
+/* Online Booking CSS */
+.online-booking-container{
+  min-height: 90vh;
+  text-align: center; 
+  padding: 50px 20px; 
+  background-color: #79B5B1;
+
+}
