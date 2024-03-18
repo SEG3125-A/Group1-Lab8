@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './App.css'; // Import the CSS file with the styles
 
 function Navbar({ closeNavbar }) {
   const location = useLocation();
@@ -57,7 +58,7 @@ function Navbar({ closeNavbar }) {
         <Link to="/Pages/Technicians.js" onClick={handleNavLinkClick}>Technicians</Link>
         <Link to="/Pages/AboutUs.js" onClick={handleNavLinkClick}>About Us</Link>
       </div>
-      <div className="title-band">
+      <div className="navbar-container"> {/* Apply CSS styles to this div */}
         <h1 className="page-title">{pageTitle}</h1>
       </div>
     </>
