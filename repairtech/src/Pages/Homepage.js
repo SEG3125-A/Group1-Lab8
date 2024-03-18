@@ -5,15 +5,19 @@ function HomePage() {
   return(
     
     
-      
+   <div className='online-booking-container'>
     <div className="home-page-container"> {/* Add this container */}
     <div className="content-wrap">
-      {/* Your main content goes here. Add more content or elements as needed */}
+      <div className='centered-image'>
+      </div>
+
+      
     </div>
     <footer className="App-footer">
       © 2024 RepairTech, Inc. All rights reserved.
     </footer>
   </div>
+  </div>   
     
   );
 }

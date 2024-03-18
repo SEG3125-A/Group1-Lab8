@@ -92,17 +92,12 @@
   
 }
 
-.header {
-  margin-top: 0px;
-  font-size: 3rem; 
-}
-
 .header2 {
   margin-top: 40px;
   font-size: 2rem; 
 }
 .description {
-  margin-top: 100px;
+  margin-top: 75px;
   font-size: 1.2rem; 
   max-width: 600px; 
   margin-left: auto; 
@@ -239,4 +234,14 @@
 
 .service-card .card-body {
   flex: 1; /* Makes the card body flex to fill the available space */
+}
+
+.centered-image {
+  background-image: url('../public/logo.jpg');
+  background-position: center;
+  background-size: contain; /* This will make sure the entire image is visible */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  height: 400px; /* Adjust based on your preference */
+  margin: 0 auto; /* Center the div if it has a specified width */
+  width: 80%; /* Adjust based on your preference or leave it out for full width */
 }
