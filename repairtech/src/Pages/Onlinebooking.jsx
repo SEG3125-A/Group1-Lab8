@@ -9,12 +9,17 @@ function OnlineBooking() {
   
   
   <div className='online-booking-container'>
+    <div className='book-flow-container' >
+    <div className='flow-block'></div>
+    </div>
+
     <DatePicker
       inline
       selected={selectedDate}
       onChange={date => setSelectedDate(date)}
       dateFormat={"dd/mm/yyyy"}
     />
+
   </div>
   
   );
